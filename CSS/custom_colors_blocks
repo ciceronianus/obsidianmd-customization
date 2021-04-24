@@ -1,0 +1,53 @@
+/*
+Author:: @CatoMinor3
+Version:: 1
+Date:: 24th April , 2021
+Changes log:
+Support: 
+- Paypal: https://www.paypal.me/catominor3
+- Patreon: https://www.patreon.com/catominor
+How to use this? 
+Simply write #blck-COLOR (see supported colors below) and follow it with 
+the highlighted text (i.e ==TEXT==), e.g.
+
+#blck-red ==Red block==
+
+Works only in the preview.
+
+*/
+
+a[href^="#blck-"] {
+  display:none !important;  
+}
+a[href^="#blck-"] + mark {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+a[href^="#blck-grey"] + mark {
+  background-color: #e2e3e5;
+border: 1px solid #d6d8db; 
+}
+a[href^="#blck-red"] + mark {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+a[href^="#blck-blue"] + mark {
+  background-color: #cce5ff;
+  border: solid 1px #b8daff;
+}
+a[href^="#blck-green"] + mark {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+a[href^="#blck-yellow"] + mark {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+ }
+
+
+
+
