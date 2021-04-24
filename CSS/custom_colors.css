@@ -1,0 +1,233 @@
+/*
+Author:: @CatoMinor3
+Version:: 1
+Date:: 24th April , 2021
+Changes log:
+Support: 
+- Paypal: https://www.paypal.me/catominor3
+- Patreon: https://www.patreon.com/catominor
+How to use this? Simply write #c:COLOR (see supported colors below) and follow it with 
+the highlighted text, bold text or italics
+*/
+
+
+a[href^="#c-"] {
+  display:none !important;  
+}
+
+a[href^="#c-"] + mark, 
+a[href^="#c-"] + .internal-link {
+color: white !important;
+border-radius: 5px;
+padding-left: 5px;
+padding-right: 5px;
+font-weight: bold;
+}
+
+a[href^="#c-navy"] + mark,
+a[href^="#c-navy"] + .internal-link {
+background-color: #001F3F !important;
+}
+
+a[href^="#c-navy"] + em, 
+a[href^="#c-navy"] + strong 
+{color: #001F3F; }
+
+a[href^="#c-blue"] + mark,
+a[href^="#c-blue"] + .internal-link {
+background-color: #0074D9 !important;
+}
+
+
+a[href^="#c-blue"] + em, 
+a[href^="#c-blue"] + strong {
+color: #0074D9;
+
+}
+
+a[href^="#c-aqua"] + mark,
+a[href^="#c-aqua"] + .internal-link {
+background-color: #7FDBFF !important;
+}
+
+a[href^="#c-aqua"] + em, 
+a[href^="#c-aqua"] + strong {
+color: #7FDBFF;
+
+}
+
+a[href^="#c-teal"] + mark,
+a[href^="#c-teal"] + .internal-link {
+background-color: #39CCCC !important;
+}
+
+
+a[href^="#c-teal"] + em,
+a[href^="#c-teal"] + strong {
+color: #39CCCC;
+
+}
+
+
+a[href^="#c-olive"] + mark,
+a[href^="#c-olive"] + .internal-link {
+background-color: #3D9970 !important;
+}
+
+a[href^="#c-olive"] + em,
+a[href^="#c-olive"] + strong {
+color: #3D9970;
+
+}
+
+a[href^="#c-green"] + mark,
+a[href^="#c-green"] + .internal-link {
+background-color: #2ECC40 !important;
+}
+
+a[href^="#c-green"] + em,
+a[href^="#c-green"] + strong {
+color: #2ECC40;
+
+}
+
+
+a[href^="#c-lime"] + mark,
+a[href^="#c-lime"] + .internal-link {
+
+background-color: #01FF70 !important;
+
+}
+
+a[href^="#c-lime"] + em,
+a[href^="#c-lime"] + strong {
+color: #01FF70;
+
+}
+
+a[href^="#c-yellow"] + mark,
+a[href^="#c-yellow"] + .internal-link {
+
+background-color: #FFDC00 !important;
+
+}
+
+a[href^="#c-yellow"] + em,
+a[href^="#c-yellow"] + strong {
+color: #FFDC00;
+
+}
+
+a[href^="#c-orange"] + mark,
+a[href^="#c-orange"] + .internal-link {
+
+background-color: #FF851B !important;
+
+}
+
+a[href^="#c-orange"] + em,
+a[href^="#c-orange"] + strong {
+color: #FF851B;
+
+}
+
+
+a[href^="#c-red"] + mark,
+a[href^="#c-red"] + .internal-link {
+
+background-color: #FF4136 !important;
+
+}
+
+a[href^="#c-red"] + em,
+a[href^="#c-red"] + strong
+{
+color: #FF4136;
+
+}
+
+
+
+
+
+
+
+
+
+a[href^="#c-fuchsia"] + mark,
+a[href^="#c-fuchsia"] + .internal-link {
+
+background-color: #F012BE !important;
+
+}
+
+a[href^="#c-fuchsia"] + em, 
+a[href^="#c-fuchsia"] + strong {
+color: #F012BE;
+
+}
+
+a[href^="#c-purple"] + mark,
+a[href^="#c-purple"] + .internal-link {
+
+background-color: #B10DC9 !important;
+
+}
+
+a[href^="#c-purple"] + em,
+a[href^="#c-purple"] + strong {
+
+color: #B10DC9;
+}
+
+a[href^="#c-maroon"] + mark,
+a[href^="#c-maroon"] + .internal-link {
+
+background-color: #85144B !important;
+
+}
+
+a[href^="#c-maroon"] + em,
+a[href^="#c-maroon"] + strong {
+color: #85144B;
+
+}
+
+a[href^="#c-silver"] + mark,
+a[href^="#c-silver"] + .internal-link {
+
+background-color: #DDDDDD !important;
+
+}
+
+a[href^="#c-silver"] + em,
+a[href^="#c-silver"] + strong {
+color: #DDDDDD;
+
+}
+
+a[href^="#c-gray"] + mark,
+a[href^="#c-gray"] + .internal-link {
+
+background-color: #AAAAAA !important;
+
+}
+
+a[href^="#c-gray"] + em,
+a[href^="#c-gray"] + strong {
+color: #AAAAAA;
+
+}
+
+a[href^="#c-black"] + mark,
+a[href^="#c-black"] + .internal-link {
+
+background-color: #111111 !important;
+
+}
+
+a[href^="#c-black"] + em,
+a[href^="#c-black"] + strong {
+color: #111111;
+
+}	
